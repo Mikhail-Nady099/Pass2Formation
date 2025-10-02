@@ -1,0 +1,84 @@
+PREDICTION EXAMPLES
+==================================================
+
+Example 1 (Sequence ID: test_503):
+  Sequence MAE: 7.6971
+  Home Players:
+    • home_p1: Actual=(20.70, 7.48), Predicted=(24.93, 8.39)
+    • home_p2: Actual=(26.37, 13.76), Predicted=(28.22, 9.41)
+    • home_p3: Actual=(25.12, -5.01), Predicted=(25.54, -0.63)
+    • home_p4: Actual=(17.32, 9.81), Predicted=(20.57, 10.40)
+    • home_p5: Actual=(9.67, 24.64), Predicted=(17.63, 8.64)
+    • home_p6: Actual=(10.72, 5.99), Predicted=(25.61, 22.83)
+    • home_p7: Actual=(16.41, 16.44), Predicted=(25.11, 17.38)
+    • home_p8: Actual=(-0.54, -6.03), Predicted=(19.00, 4.24)
+    • home_p9: Actual=(21.90, 6.37), Predicted=(27.30, 4.08)
+    • home_p10: Actual=(45.38, 1.49), Predicted=(30.26, -1.94)
+    • home_p11: Actual=(23.55, 24.02), Predicted=(24.16, 13.06)
+  Away Players:
+    • away_p1: Actual=(-6.60, 11.93), Predicted=(13.52, 12.36)
+    • away_p2: Actual=(-4.97, 4.58), Predicted=(9.26, 2.95)
+    • away_p3: Actual=(7.37, 24.60), Predicted=(19.55, 15.25)
+    • away_p4: Actual=(21.34, -0.96), Predicted=(27.38, 2.82)
+    • away_p5: Actual=(10.60, 7.27), Predicted=(19.88, 6.28)
+    • away_p6: Actual=(-1.44, -7.25), Predicted=(21.04, -5.67)
+    • away_p7: Actual=(3.38, 13.93), Predicted=(17.30, 7.10)
+    • away_p8: Actual=(18.59, 7.76), Predicted=(23.93, 19.76)
+    • away_p9: Actual=(21.95, 8.66), Predicted=(29.42, 7.62)
+    • away_p10: Actual=(19.83, 24.68), Predicted=(28.29, 22.73)
+    • away_p11: Actual=(-30.41, 2.89), Predicted=(-4.35, 2.33)
+
+Example 2 (Sequence ID: test_131):
+  Sequence MAE: 4.8275
+  Home Players:
+    • home_p1: Actual=(-11.18, -14.06), Predicted=(3.06, -4.29)
+    • home_p2: Actual=(-10.26, 5.67), Predicted=(-4.60, 4.21)
+    • home_p3: Actual=(6.43, -31.18), Predicted=(7.69, -28.64)
+    • home_p4: Actual=(2.02, -8.76), Predicted=(7.15, -3.16)
+    • home_p5: Actual=(17.67, 26.81), Predicted=(17.01, -4.72)
+    • home_p6: Actual=(18.35, 17.20), Predicted=(6.40, 5.92)
+    • home_p7: Actual=(11.50, 4.80), Predicted=(17.11, 2.62)
+    • home_p8: Actual=(20.19, -4.14), Predicted=(23.48, -3.98)
+    • home_p9: Actual=(9.89, -17.62), Predicted=(7.23, -18.51)
+    • home_p10: Actual=(-29.07, -3.03), Predicted=(-27.49, -4.99)
+    • home_p11: Actual=(1.97, 23.85), Predicted=(10.67, 14.80)
+  Away Players:
+    • away_p1: Actual=(23.14, 0.09), Predicted=(26.27, 0.11)
+    • away_p2: Actual=(22.24, -5.97), Predicted=(22.40, -11.18)
+    • away_p3: Actual=(21.98, 11.57), Predicted=(17.19, 6.50)
+    • away_p4: Actual=(6.82, -21.42), Predicted=(10.01, -13.63)
+    • away_p5: Actual=(13.04, -17.43), Predicted=(12.21, -13.28)
+    • away_p6: Actual=(14.63, -25.54), Predicted=(19.28, -17.31)
+    • away_p7: Actual=(17.08, -1.12), Predicted=(17.87, -5.46)
+    • away_p8: Actual=(10.29, 4.69), Predicted=(12.87, 0.04)
+    • away_p9: Actual=(2.23, -5.63), Predicted=(2.20, -5.49)
+    • away_p10: Actual=(13.18, 16.46), Predicted=(8.54, 9.39)
+    • away_p11: Actual=(42.49, -2.60), Predicted=(44.55, -4.37)
+
+Example 3 (Sequence ID: test_351):
+  Sequence MAE: 6.0714
+  Home Players:
+    • home_p1: Actual=(-44.24, -12.11), Predicted=(-34.19, -0.80)
+    • home_p2: Actual=(-43.55, 18.79), Predicted=(-33.74, 16.26)
+    • home_p3: Actual=(-26.07, -30.32), Predicted=(-30.89, -24.69)
+    • home_p4: Actual=(-4.53, 17.77), Predicted=(-10.04, 16.89)
+    • home_p5: Actual=(-24.57, -0.38), Predicted=(-22.06, 4.08)
+    • home_p6: Actual=(-26.04, 31.09), Predicted=(-27.19, 22.47)
+    • home_p7: Actual=(-31.34, 14.01), Predicted=(-26.66, 11.17)
+    • home_p8: Actual=(-8.95, -2.07), Predicted=(-16.51, -6.47)
+    • home_p9: Actual=(1.17, 1.42), Predicted=(-10.38, -0.10)
+    • home_p10: Actual=(1.21, -28.66), Predicted=(-14.13, -23.69)
+    • home_p11: Actual=(-47.67, 0.38), Predicted=(-53.01, 4.32)
+  Away Players:
+    • away_p1: Actual=(-0.16, -5.88), Predicted=(-4.55, -3.92)
+    • away_p2: Actual=(-6.72, 21.78), Predicted=(-12.97, 13.52)
+    • away_p3: Actual=(-2.44, -21.34), Predicted=(-12.16, -17.23)
+    • away_p4: Actual=(-24.52, -2.78), Predicted=(-20.36, -2.05)
+    • away_p5: Actual=(-2.75, 14.80), Predicted=(-10.02, 6.60)
+    • away_p6: Actual=(-45.99, 3.43), Predicted=(-26.58, 2.81)
+    • away_p7: Actual=(-31.93, -15.86), Predicted=(-15.56, -9.81)
+    • away_p8: Actual=(-28.03, 24.63), Predicted=(-25.23, 15.41)
+    • away_p9: Actual=(-30.15, 12.09), Predicted=(-18.01, 9.07)
+    • away_p10: Actual=(-0.02, 2.85), Predicted=(-3.22, 6.38)
+    • away_p11: Actual=(27.09, -2.88), Predicted=(25.75, 2.11)
+
