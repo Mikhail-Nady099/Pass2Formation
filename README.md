@@ -18,7 +18,7 @@ Figure 1 shows examples of the different scenarios our model can predict for the
 
 Pass2Formation is the first practical, identity-anchored pipeline to forecast full next-state spatial configurations and systematically generate multi-receiver counterfactuals from open-play contexts. Its compact architecture and strong positional accuracy make it immediately deployable for team-shape analysis, tactical decision support, and what-if scenario ranking—bridging the gap between value-only models and heavyweight simulators and benefitting both the professional analytics community and game/simulators developers.
 
-![Figure 1](Pass2Formation/Figure%201.jpg)  
+![Figure 1](Figure 1.jpg)  
 *Figure 1. Example of counterfactual tactical scenarios evaluations using the proposed model. The upper row shows the five steps, i.e. prior events, of an arbitrary sequence from the testing sequences. The lower row shows players positions directly after the next event/pass. The actual pass that occurred in the game is on the most left side, followed by four predictions for four different passes.*
 
 ![Figure 2](Pass2Formation/Figure%202.jpg)  
