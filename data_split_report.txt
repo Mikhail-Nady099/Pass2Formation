@@ -1,9 +1,0 @@
-DATA SPLIT REPORT
-=================
-Total sequences: 5502
-Training sequences: 4401 (80.0%)
-Validation sequences: 550 (10.0%)
-Test sequences: 551 (10.0%)
-
-Input shape per sequence: (5, 59)
-Output shape per sequence: (44,)
