@@ -11,7 +11,7 @@ The model is trained on the PFF FC's 2022 World Cup dataset, with a baseline mod
 
 The repository includes Jupyter notebooks for model training, fine-tuning, evaluation, and result generation, along with figures from the paper.
 
-For the full details, see the paper PDF in the root directory: `Pass2Formation MITSloanFullPaper.pdf`.
+For the full details, see the paper PDF in the root directory: [Pass2Formation MITSloanFullPaper.pdf](Pass2Formation MITSloanFullPaper .pdf).
 
 ## Repository Structure
 
