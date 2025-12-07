@@ -1,0 +1,16 @@
+POSITION ERROR ANALYSIS
+==================================================
+
+Top 5 positions with highest error:
+1. home_p11_x: MAE=9.993414, MSE=355.349972
+2. away_p11_x: MAE=9.237298, MSE=301.303995
+3. home_p5_x: MAE=7.912035, MSE=174.022351
+4. away_p4_x: MAE=7.499223, MSE=143.755155
+5. away_p2_x: MAE=7.430766, MSE=138.416399
+
+Top 5 positions with lowest error:
+1. home_p10_y: MAE=5.188947, MSE=51.035532
+2. home_p6_y: MAE=5.050996, MSE=45.864271
+3. away_p2_y: MAE=4.781560, MSE=39.083296
+4. away_p11_y: MAE=4.267688, MSE=38.919466
+5. home_p11_y: MAE=3.111527, MSE=20.463763

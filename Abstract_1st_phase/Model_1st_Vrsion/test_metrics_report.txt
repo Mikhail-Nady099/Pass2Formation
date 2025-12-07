@@ -1,0 +1,21 @@
+POSITION METRICS REPORT
+==================================================
+
+Overall Test Performance:
+  MSE: 90.717352
+  MAE: 6.387455
+  R²: 0.735860
+
+Top 5 positions with highest error:
+1. away_p11_x: MAE=9.916140, MSE=340.318372, R²=0.694821
+2. home_p11_x: MAE=9.579173, MSE=328.865731, R²=0.718414
+3. home_p5_x: MAE=8.097985, MSE=172.589069, R²=0.612591
+4. away_p2_x: MAE=7.869756, MSE=154.994696, R²=0.663455
+5. away_p4_x: MAE=7.607129, MSE=154.334258, R²=0.646742
+
+Top 5 positions with lowest error:
+1. away_p2_y: MAE=5.241504, MSE=51.958796, R²=0.798281
+2. home_p1_y: MAE=5.110696, MSE=45.794405, R²=0.765333
+3. away_p10_y: MAE=5.090395, MSE=48.746958, R²=0.804369
+4. away_p11_y: MAE=4.240533, MSE=37.669784, R²=0.654773
+5. home_p11_y: MAE=3.326182, MSE=23.530597, R²=0.757965

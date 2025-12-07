@@ -1,0 +1,14 @@
+DETAILED POSITION ANALYSIS
+==================================================
+
+Team Performance Comparison:
+  Home players average MAE: 6.383535
+  Away players average MAE: 6.391375
+  Difference: 0.007841
+
+Coordinate Performance Comparison:
+  X coordinates average MAE: 7.330663
+  Y coordinates average MAE: 5.444247
+  Difference: 1.886417
+
+Consistent Error Patterns:
