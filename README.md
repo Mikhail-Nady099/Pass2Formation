@@ -59,7 +59,7 @@ The dataset used is the publicly available PFF FC 2022 World Cup dataset (JSON e
 1. **Setup Dataset**:
    - Organize the JSON event files into a relational database with tables for possession events, player locations, ball locations, and metadata (as per Section 2.1).
    - Normalize positions to pitch dimensions and unify offense direction.
-   They can run the code on google colab but change the output pathes in the code to your path in your drive. But the data input path is in our drive and shared public and you can download the data.
+   - You can run the code on google colab but change the output pathes in the code to your path in your drive. But the data input path is in our drive and shared public and you can download the data.
 
 2. **Run Baseline Model**:
    - Open `Baseline_Model/Pass2Formation_LSTM_Baseline_Model.ipynb`.
