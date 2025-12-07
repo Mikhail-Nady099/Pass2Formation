@@ -19,7 +19,7 @@ The repo is organized into folders for different phases of the project:
 
 1. **Abstract_1st_phase**: Contains codes and results from the initial abstract submission phase (1st phase of the conference process).
    
-2. **Baseline_Model**: Jupyter notebook (`Pass2Formation_LSTM_Baseline_Model.ipynb`) for training and evaluating the generic baseline model .
+2. **Baseline_Model**: Jupyter notebook [Pass2Formation_LSTM_Baseline_Model.ipynb](Pass2Formation/Baseline_Model) for training and evaluating the generic baseline model .
 
 3. **Argentina_Model**: Jupyter notebook (`Pass2Formation_LSTM_Baseline_Model_Fine_Tunned_on_Argentina.ipynb`) for fine-tuning the baseline model on Argentina's data and evaluating it on other datasets (cross-team evaluation).
 
