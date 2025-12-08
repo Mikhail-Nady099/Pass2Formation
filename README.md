@@ -52,15 +52,20 @@ Install dependencies via:
 pip install tensorflow pandas numpy matplotlib seaborn scikit-learn
 ```
 
-The dataset used is the publicly available PFF FC 2022 World Cup dataset (JSON event files). Download it from the official source and place it in a `data/` folder (not included in this repo due to size). The code assumes a relational database setup (e.g., via SQL) for efficient querying, as described in Section 2.1 of the paper. The processed data that we used is uploaded in our drive files and it is public shared in the view version for public.
+The dataset used is the publicly available PFF FC 2022 World Cup dataset (JSON event files). Download it from the official source and place it in a `data/` folder (not included in this repo due to size). The code assumes a relational database setup (e.g., via SQL) for efficient querying, as described in Section 2.1 of the paper. 
+
+The processed data that we used is uploaded in our Google Drive folder and is publicly shared (view-only): [FIFA 2022 Data](https://drive.google.com/drive/folders/1QmnNRFq8CGiphT8okvOTOK8zBPUM4kFJ).
+
+Additionally, the processed data for the first model version submitted in the abstract 1st phase is available here: [Abstract Phase Data](https://drive.google.com/drive/folders/1H8gdohJ2YYnpLNmVtPIgYbxe5_ZjbBot).
+
 
 ## How to Use
 
 1. **Setup Dataset**:
    - Organize the JSON event files into a relational database with tables for possession events, player locations, ball locations, and metadata (as per Section 2.1).
    - Normalize positions to pitch dimensions and unify offense direction.
-   - You can run the code on google colab but change the output pathes in the code to your path in your drive. But the data input path is in our drive and shared public and you can download the data.
-
+   
+   - You can run the code on Google Colab. The data input paths in the code point to the shared Drive folder [FIFA 2022 Data](https://drive.google.com/drive/folders/1QmnNRFq8CGiphT8okvOTOK8zBPUM4kFJ), so you can access it directly if you mount your Drive, or download the files to your own Drive/local setup. Change output paths in the code to your preferred location.
 2. **Run Baseline Model**:
    - Open `Baseline_Model/Pass2Formation_LSTM_Baseline_Model.ipynb`.
    - Load Group B data (non-reserved teams).
