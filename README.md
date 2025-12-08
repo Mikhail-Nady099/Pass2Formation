@@ -64,7 +64,7 @@ Additionally, the processed data for the first model version submitted in the ab
 1. **Setup Dataset**:
    - Organize the JSON event files into a relational database with tables for possession events, player locations, ball locations, and metadata (as per Section 2.1).
    - Normalize positions to pitch dimensions and unify offense direction.
-   ----- OR ----
+   -    <<<<<<< OR >>>>>>
    - You can run the code on Google Colab. The data input paths in the code point to the shared Drive folder [FIFA 2022 Data](https://drive.google.com/drive/folders/1QmnNRFq8CGiphT8okvOTOK8zBPUM4kFJ), so you can access it directly if you mount your Drive, or download the files to your own Drive/local setup. Change output paths in the code to your preferred location.
 2. **Run Baseline Model**:
    - Open `Baseline_Model/Pass2Formation_LSTM_Baseline_Model.ipynb`.
