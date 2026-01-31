@@ -56,7 +56,7 @@ The dataset used is the publicly available PFF FC 2022 World Cup dataset (JSON e
 
 The processed data that we used is uploaded in our Google Drive folder and is publicly shared (view-only): [FIFA 2022 Data](https://drive.google.com/drive/folders/1QmnNRFq8CGiphT8okvOTOK8zBPUM4kFJ).
 
-Additionally, the processed data for the first model version submitted in the abstract 1st phase is available here: [Abstract Phase Data](https://drive.google.com/drive/folders/1H8gdohJ2YYnpLNmVtPIgYbxe5_ZjbBot).
+Additionally, the processed data for the first model version  is available here: [Abstract Phase Data](https://drive.google.com/drive/folders/1H8gdohJ2YYnpLNmVtPIgYbxe5_ZjbBot).
 
 
 ## How to Use
