@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the code and resources for the research paper titled **"Pass2Formation: Multi-Receiver, Full-Team Next-Location Forecasting from Short Event Sequences in Soccer Games"** , submitted to the MIT Sloan Sports Analytics Conference (SSAC). The paper introduces a novel lightweight LSTM-based model that predicts the post-pass locations of all 22 players on the soccer pitch using only four prior events. This enables tactical analysis, counterfactual scenario evaluation (e.g., "what-if" different receivers), and integration into soccer simulation systems like video games.
+This repository contains the code and resources for the research paper titled **"Pass2Formation: Multi-Receiver, Full-Team Next-Location Forecasting from Short Event Sequences in Soccer Games"** , submitted to The 3rd International Sports Analytics Conference and Exhibition (ISACE). The paper introduces a novel lightweight LSTM-based model that predicts the post-pass locations of all 22 players on the soccer pitch using only four prior events. This enables tactical analysis, counterfactual scenario evaluation (e.g., "what-if" different receivers), and integration into soccer simulation systems like video games.
 
 The model is trained on the PFF FC's 2022 World Cup dataset, with a baseline model trained on general matches and fine-tuned versions for specific teams (Argentina, Croatia, England, France, Morocco) to capture team-specific tactics. Key contributions include:
 - Accurate prediction of full-team formations (MAE around ~5.8 m ).
@@ -11,13 +11,13 @@ The model is trained on the PFF FC's 2022 World Cup dataset, with a baseline mod
 
 The repository includes Jupyter notebooks for model training, fine-tuning, evaluation, and result generation, along with figures from the paper.
 
-For the full details, see the paper PDF in the root directory: (`Pass2Formation MITSloanFullPaper.pdf`).
+For the full details, see the paper PDF in the root directory: (`ISACE26_Pass2Formation.pdf`).
 
 ## Repository Structure
 
 The repo is organized into folders for different phases of the project:
 
-1. **Abstract_1st_phase**: Contains codes and results from the initial abstract submission phase (1st phase of the conference process).
+1. **Draft_1st_Trail**: Contains codes and results from the 1st experiment .
    
 2. **Baseline_Model**: Jupyter notebook (`Pass2Formation_LSTM_Baseline_Model.ipynb`) for training and evaluating the generic baseline model .
 
@@ -102,12 +102,12 @@ If you use this code or paper, please cite:
 @article{pass2formation2025,
   title = {Pass2Formation: Multi-Receiver, Full-Team Next-Location Forecasting from Short Event Sequences in Soccer Games},
   author = {[ Mikhail Daoud , Tamer Basha ]},
-  journal = {MIT Sloan Sports Analytics Conference},
+  journal = {The 3rd International Sports Analytics Conference and Exhibition (ISACE)},
   year = {2026},
-  note = {Paper ID: 163}
+  note = { }
 }
 ```
 
 ## License
 
-This project is licensed under the MIT License . The code is provided for educational and research purposes. The 2022 World Cup dataset is subject to its own licensing terms from PFF FC.
+The 2022 World Cup dataset is subject to its own licensing terms from PFF FC.
